@@ -10,7 +10,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)       # optional: disable compiler-specific extens
 project (GameEngineTemplate)
 
 find_package(glm CONFIG REQUIRED)
-
 # Add source to this project's executable.
 add_executable (GameEngineTemplate GameEngineTemplate.cpp)
 
